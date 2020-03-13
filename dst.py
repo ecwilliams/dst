@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 """
-    File name: epicsDB.py
+    File name: dst.py
     Author: Eric Williams <wd6cmu@gmail.com>
     Date created: 3/09/2020
     Date last modified: Mar 12 2020
@@ -32,7 +32,7 @@ def monthlen(year, month):
     return days if month != m('FEB') else days+leap(year)
 
 # Returns numeric day of week for given date, Sunday = 0
-# Tomohiko Sakamoto’s Algorithm
+# Tomohiko Sakamotoâ€™s Algorithm
 def dow(year, month, mday):
     dow_table = [0,3,2,5,0,3,5,1,4,6,2,4]
     yy = year - (month < m('MAR'))
