@@ -20,7 +20,7 @@ from __future__ import print_function
 mName = ('JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC')
 def m(name): return mName.index(name)+1
 
-dName = ('SUN','MON','TUE','WED','THU','FRI')
+dName = ('SUN','MON','TUE','WED','THU','FRI','SAT')
 def d(name): return dName.index(name)
 
 def leap(year):
